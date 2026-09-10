@@ -1,0 +1,11 @@
+{
+  "name":"java-selenium",
+  "image":"mcr.microsoft.com/decontainers/java:17",
+  "features":{
+    "ghcr.io/decontainers/featurrs/java:1":{
+  "version":"17",
+  "installMaven": true
+}
+  },
+  "postCreateCommand":"sudo apt-get update && sudo apt-get install -y chromium chromium -driver"
+}
