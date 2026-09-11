@@ -1,2 +1,2 @@
-# Selenium-practice
-Place to practice selenium 
+# Java--practice
+Place to practice java
